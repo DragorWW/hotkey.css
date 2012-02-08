@@ -8,6 +8,18 @@ border: 1px solid rgb(181, 207, 223);
 font-family: monospace;
 text-transform: capitalize
 }
+.key-stlyle1 {
+	padding: 0 3px;
+	border-width: 2px 3px 4px;
+	border-style: solid;
+	border-color: #cdcdcd #c9c9c9 #9a9a9a #c0c0c0;
+	font-size: 11px;
+	color: #000;
+	background: #ececec;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
 kbd.up::after { 
 content: "↑";
 }
@@ -52,4 +64,19 @@ padding-left: 3px;
 kbd.shift::before { 
 content: "⇧";
 padding-right: 3px;
+}
+kbd.win {
+background: url(key_win.png) no-repeat #fff center;
+display: block;
+width: 19px;
+height: 20px;
+float: left;
+border: none;
+padding: 0;
+border-radius: 0;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+}
+kbd.win:hover > span {
+display:none;
 }
